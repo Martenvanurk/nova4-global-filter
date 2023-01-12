@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "martenvanurk\\NovaGlobalFilter\\CardServiceProvider"
+                "Martenvanurk\\NovaGlobalFilter\\CardServiceProvider"
             ]
         }
     },
