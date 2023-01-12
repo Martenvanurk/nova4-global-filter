@@ -1,5 +1,5 @@
 <template>
-  <div v-if="card.filters.length > 0" class="h-auto md:col-span-12 bg-white dark:bg-gray-800">
+  <div v-if="card.filters.length > 0" class="h-auto md:col-span-12">
     <div class="mb-4 flex" v-if="card.resettable">
       <h1
         class="text-90 font-normal text-xl md:text-2xl mb-3 items-center mt-6" 
@@ -20,7 +20,7 @@
       class="bg-30 border-b border-60 rounded-lg shadow h-auto"
     >
       <scroll-wrap
-        class="flex-wrap bg-white dark:bg-gray-800"
+        class="flex-wrap bg-white"
         :class="{ 'flex w-auto': card.inline, 'w-1/3': !card.inline }"
       >
         <div
