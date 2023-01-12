@@ -22,7 +22,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nemrutco\\NovaGlobalFilter\\": "src/"
+            "Martenvanurk\\NovaGlobalFilter\\": "src/"
         }
     },
     "extra": {
