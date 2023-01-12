@@ -1,5 +1,5 @@
 <template>
-  <div v-if="card.filters.length > 0" class="h-auto md:col-span-12">
+  <div v-if="card.filters.length > 0" class="h-auto md:col-span-12 bg-white dark:bg-gray-800">
     <div class="mb-4 flex" v-if="card.resettable">
       <h1
         class="text-90 font-normal text-xl md:text-2xl mb-3 items-center mt-6" 
