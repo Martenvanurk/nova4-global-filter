@@ -1,5 +1,5 @@
 <script>
-import TrendMetric from "@/components/Metrics/TrendMetric";
+import TrendMetric from "novaresources/components/Metrics/TrendMetric";
 import FilterBehavior from "./FilterBehavior";
 import  {minimum}  from "@/util";
 
