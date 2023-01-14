@@ -8,7 +8,7 @@
       </h1>
       <div class="justify-end items-center ml-auto mr-0 self-end">
         <button
-          class="shadow rounded focus:outline-none ring-primary-200 dark:ring-gray-600 focus:ring bg-primary-500 hover:bg-primary-400 active:bg-primary-600 text-white dark:text-gray-800 inline-flex items-center font-bold px-4 h-9 text-sm flex-shrink-0"
+          class="shadow rounded focus:outline-none ring-primary-200 dark:ring-gray-600 focus:ring bg-primary-500 hover:bg-primary-400 active:bg-primary-600 text-white dark:text-gray-800 inline-flex items-center font-bold px-4 h-9 text-sm flex-shrink-0 dark:bg-gray-800"
           @click="resetFilters(card.filters)"
         >
           {{ __("Reset") }}
@@ -17,7 +17,7 @@
     </div>
     <div
       v-if="card.filters.length > 0"
-      class="bg-30 border-b border-60 rounded-lg shadow h-auto"
+      class="bg-30 border-b border-60 rounded-lg shadow h-auto  dark:bg-gray-800"
     >
       <scroll-wrap
         class="flex-wrap bg-white dark:bg-gray-800"
