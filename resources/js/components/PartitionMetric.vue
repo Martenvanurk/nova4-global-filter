@@ -1,5 +1,5 @@
 <script>
-import Partitionmetric from "novaresources/components/Metrics/PartitionMetric";
+import Partitionmetric from "@/components/Metrics/PartitionMetric";
 import FilterBehavior from "./FilterBehavior";
 import  {minimum}  from "@/util";
 

@@ -13,7 +13,7 @@ mix.alias({
     __dirname,
     "vendor/laravel/nova/resources/js/mixins/packages.js"
   ),
-  "novaresources": path.join(
+  "@": path.join(
     __dirname,
     "../../vendor/laravel/nova/resources/js"
 ),

@@ -1,5 +1,5 @@
 <script>
-import ValueMetric from "novaresources/components/Metrics/ValueMetric";
+import ValueMetric from "@/components/Metrics/ValueMetric";
 import FilterBehavior from "./FilterBehavior";
 import  {minimum}  from "@/util";
 
