@@ -20,7 +20,7 @@
       class="bg-30 border-b border-60 rounded-lg shadow h-auto"
     >
       <scroll-wrap
-        class="flex-wrap bg-white"
+        class="flex-wrap bg-gray-500"
         :class="{ 'flex w-auto': card.inline, 'w-1/3': !card.inline }"
       >
         <div
