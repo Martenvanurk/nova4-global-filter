@@ -6,7 +6,7 @@ mix
   .setPublicPath("dist")
   .js("resources/js/card.js", "js")
   .vue({ version: 3 })
-  .nova("martenvanurk/nova4-global-filter");
+  .nova("martenvanurk/nova-global-filter");
 
 mix.alias({
   "laravel-nova": path.join(
